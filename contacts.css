@@ -1,0 +1,69 @@
+.contact_list{
+    background-color: #f1f2f5;
+    width: 300px;
+    height: 1000px;
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* margin-left: 30px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%; */
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.logo span{
+    margin-left: 10px;
+}
+.sponsored p{
+    font-size: small;
+    color: gray;
+    margin-left: 50px;
+}
+.sponsored .menu{
+    height: 130px;
+    width: 250px;
+    margin-left: 42px;
+    border-radius: 20px;
+}
+/* .sponsored hr{
+    margin-left: 20px;
+    margin-right: 20px;
+} */
+.birthday{
+    display: flex;
+    align-items: center;
+}
+.birthday img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.birthday{
+    font-size: medium;
+    color: gray;
+}
+ /* .contact_list {
+    font-size: 40px;
+    color: gray;
+} */
+.contact_list{
+    overflow: scroll;
+}
+.contact img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
